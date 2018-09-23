@@ -1,0 +1,24 @@
+{
+  "name": "weather-watcher",
+  "version": "1.0.0",
+  "description": "Demo Electron weather app for the Learn Electron book.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ractoon/learn-electron",
+  "keywords": [
+    "Learn",
+    "Electron",
+    "demo"
+  ],
+  "author": "ractoon",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "weather-js": "^2.0.0"
+  }
+}

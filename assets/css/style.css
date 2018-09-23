@@ -1,0 +1,81 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 520px;
+}
+
+.page-title {
+    margin: 0;
+    text-align: center;
+}
+
+.current-weather {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.current-weather .icon {
+  font-size: 128px;
+  line-height: 1;
+}
+
+.details {
+    line-height: 1.25;
+}
+
+.current-weather .details {
+    font-size: 28px;
+}
+
+.current-weather .details .day {
+    font-size: 20px;
+}
+
+.temp, .day {
+    display: block;
+}
+
+.day {
+    text-transform: uppercase;
+}
+
+.weekly-weather {
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.weekly-weather .icon {
+    font-size: 64px;
+    line-height: 1;
+}
+
+.weekly-weather li {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 520px) {
+    .weekly-weather {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .weekly-weather li {
+        border-top: none;
+        padding-bottom: 10px;
+    }
+
+    .weekly-weather li:first-child {
+        border-left: none;
+    }
+}
