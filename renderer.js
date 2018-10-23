@@ -1,5 +1,5 @@
 const weather = require('weather-js'),
-      location = '';    // City or Zip Code to get the weather for
+      location = '90210';    // City or Zip Code to get the weather for
 
 function skyCodeClass(skycode) {
     let iconClass = '';
